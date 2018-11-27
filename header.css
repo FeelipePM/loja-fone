@@ -8,10 +8,12 @@ a {
 }
 
 h1 {
+  font-family: "Chakra Petch", sans-serif;
   font-size: 40px;
 }
 
 a {
+  font-family: "Roboto", sans-serif;
   font-size: 21px;
   text-decoration: none;
 }
