@@ -1,4 +1,8 @@
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
   background-color: #e24647;
 }
 
@@ -16,4 +20,5 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 21px;
   text-decoration: none;
+  margin: 10px;
 }
