@@ -1,24 +1,25 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  overflow: hidden;
   padding: 5px;
   background-color: #e24647;
-}
-
-h1,
-a {
-  color: #ffffff;
+  color: #fff;
+  margin: 0px 115px;
+  padding: 55px 60px 95px;
 }
 
 h1 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
+  float: left;
+}
+
+nav {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  font-size: 21px;
+  float: right;
 }
 
 a {
-  font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  color: inherit;
   text-decoration: none;
-  margin: 10px;
 }
