@@ -1,5 +1,6 @@
-.button {
+.button-store {
   display: inline-block;
+  text-decoration: none;
   text-align: center;
   line-height: 60px;
   width: 200px;
@@ -8,5 +9,4 @@
   color: #fff;
   font-family: Arial, "Roboto", sans-serif;
   font-size: 20px;
-  margin: 10px 115px;
 }

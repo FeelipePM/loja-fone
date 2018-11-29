@@ -1,31 +1,22 @@
-body {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-header {
+.header-store {
   overflow: hidden;
   background-color: #e24647;
   color: #fff;
-  margin: 0px 115px;
-  padding: 55px 60px 95px;
 }
 
-h1 {
+.title {
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
   float: left;
 }
 
-nav {
+.navigation {
   font-family: "Segoe UI", "Roboto", sans-serif;
   font-size: 21px;
   float: right;
 }
 
-a {
+.action {
   color: inherit;
   text-decoration: none;
   margin-right: 60px;
