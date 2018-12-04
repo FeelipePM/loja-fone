@@ -1,0 +1,15 @@
+.container-fone {
+  position: absolute;
+  top: 195px;
+  left: 0px;
+  width: 601px;
+  height: 574px;
+  border-radius: 0px 150px 150px 0px;
+  background-color: #fff;
+}
+
+.fone-top {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}

@@ -1,6 +1,9 @@
 .description {
+  position: relative;
+  left: 60%;
   color: #fff;
   font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 .description-title {
@@ -33,4 +36,9 @@
 
 .description-star{
   margin-bottom: 28px;
+}
+
+.description-product {
+  width: 553px;
+  height: 175px;
 }
