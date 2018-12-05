@@ -1,4 +1,4 @@
-.description {
+.description-product {
   position: relative;
   left: 60%;
   color: #fff;
@@ -6,7 +6,7 @@
   font-size: 20px;
 }
 
-.description-title {
+.description-product .title {
   margin-top: 154px;
   margin-bottom: 100px;
 }
@@ -16,7 +16,7 @@
   margin: 0px 38px 0px 0px;
 }
 
-.description-more, .see-more {
+.see-more {
   color: #fff;
   text-decoration: none;
   font-family: Arial, "Roboto", sans-serif;
@@ -24,21 +24,21 @@
   margin-bottom: 98px;
 }
 
-.description-price {
+.price {
   margin-bottom: 73px;
   word-spacing: 77px;
 }
 
-.description-freight{
+.freight{
   margin-bottom: 26px;
   word-spacing: 77px;
 }
 
-.description-star{
+.reputation{
   margin-bottom: 28px;
 }
 
-.description-product {
+.summary {
   width: 553px;
   height: 175px;
 }
