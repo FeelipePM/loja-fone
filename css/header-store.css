@@ -2,10 +2,13 @@
   overflow: hidden;
   background-color: #e24647;
   color: #fff;
+  margin-bottom: 138px;
+  padding-left: 60px;
 }
 
 .header-store > .title {
   font-family: Arial, "Roboto", sans-serif;
+  text-transform: uppercase;
   font-size: 40px;
   float: left;
 }

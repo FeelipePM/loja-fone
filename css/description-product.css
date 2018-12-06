@@ -1,44 +1,40 @@
 .description-product {
-  position: relative;
-  left: 60%;
   color: #fff;
-  font-family: Arial, "Roboto", sans-serif;
-  font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
-.description-product .title {
-  margin-top: 154px;
+.description-product > .title {
+  font-size: 25px;
   margin-bottom: 100px;
 }
 
-.description-button {
-  display: inline-block;
-  margin: 0px 38px 0px 0px;
-}
-
-.see-more {
-  color: #fff;
-  text-decoration: none;
-  font-family: Arial, "Roboto", sans-serif;
-  margin-top: 28px;
-  margin-bottom: 98px;
-}
-
-.price {
-  margin-bottom: 73px;
-  word-spacing: 77px;
-}
-
-.freight{
-  margin-bottom: 26px;
-  word-spacing: 77px;
-}
-
-.reputation{
+.description-product > .item {
+  font-size: 20px;
   margin-bottom: 28px;
 }
 
-.summary {
-  width: 553px;
-  height: 175px;
+.description-product > .item.-info {
+  width: 200px;
+  text-align: right;
 }
+
+.description-product > .item.-last {
+  margin-bottom: 72px;
+}
+
+.description-product .contrast {
+  text-transform: uppercase;
+  float: left;
+}
+
+.description-product > .text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.description-product .action {
+  text-decoration: none;
+  color: inherit;
+}
+
