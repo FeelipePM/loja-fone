@@ -28,3 +28,13 @@
 .header-store .action.-last {
   margin-right: 0px;
 }
+
+.header-store .search {
+  margin-right: 360px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
