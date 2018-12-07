@@ -1,7 +1,8 @@
 .photo-star{
-  width: 125px;
-  background: repeat-x url(../img/star-1.png);
+  width: 220px;
   margin-bottom: 25px;
-  transform: scaleX(-1);
-        
+}
+
+.photo-star > img {
+  margin-right: 10px;
 }
