@@ -30,7 +30,8 @@
 }
 
 .header-store .search {
-  margin-right: 360px;
+  width: 358px;
+  margin-right: 60px;
   color: #ffffff;
   background: transparent;
   border: none;
