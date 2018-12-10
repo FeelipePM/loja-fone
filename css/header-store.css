@@ -32,10 +32,15 @@
 .header-store .search {
   width: 358px;
   margin-right: 60px;
-  color: #ffffff;
+  padding: 8px;
+  color: #fff;
   background: transparent;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #fff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.header-store .search::placeholder {
+  opacity: 1;
 }
