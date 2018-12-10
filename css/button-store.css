@@ -19,6 +19,17 @@
   background-color: transparent;
   border: 2px solid #fff;
   margin-right: 38px;
+  cursor: pointer;
+}
+
+.button-store:hover {
+  background-color: #fff;
+  color: #252a34;
+}
+
+.button-store.-second:hover {
+  background-color: #fff;
+  color: #e24647;
 }
 
 .button-store > button,
