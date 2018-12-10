@@ -7,3 +7,10 @@
   background-color: #e24647;
   padding: 55px 60px 165px 0px;
 }
+
+.container-store .like-product {
+  position: absolute;
+  bottom: 68%;
+  right: 53%;
+  margin-right: 46px;
+}
