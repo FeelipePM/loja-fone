@@ -11,6 +11,9 @@
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+
+  transition: background-color 400ms linear, color 1s linear;
+
 }
 
 .button-store.-second {
@@ -22,12 +25,18 @@
   cursor: pointer;
 }
 
-.button-store:hover {
+.button-store:hover,
+.button-store:focus {
   background-color: #fff;
-  color: #e24647;
+  color: #252c42; 
 }
 
-.button-store.-second:hover {
+.button-store:active {
+  transform: scale(0.9);
+}
+
+.button-store.-second:hover,
+.button-store.-second:focus {
   background-color: #fff;
   color: #e24647;
 }
