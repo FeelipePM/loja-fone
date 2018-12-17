@@ -49,3 +49,15 @@ border: none;
 text-decoration: inherit;
 color: inherit;
 }
+
+@media (max-width: 525px) {
+  .button-store {
+    width: 120px;
+    font-size: 16px;
+  }
+
+  .button-store.-second {
+    width: 180px;
+    margin-right: 10px;
+  }
+}

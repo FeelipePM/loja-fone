@@ -4,3 +4,9 @@
   vertical-align: middle;
   position: relative;
 }
+
+@media (max-width: 550px) {
+  .wrap-product {
+    width: 320px;
+  }
+}

@@ -1,6 +1,13 @@
 .wrap-button {
   position: absolute;
-  left: 47%;
+  left: 53%;
   margin-left: 6px;
   transform: translateY( calc(-100% + 98px) );
+}
+
+@media (max-width: 1292px) {
+  .wrap-button{
+    left: 0;
+    margin-left: 3px;
+  }
 }

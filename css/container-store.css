@@ -29,12 +29,12 @@
 
 @media (max-height: 952px) {
   .container-store{
-    padding-right: 30px;
+    padding-right: 0;
   }
 }
 
 @media (max-width: 390px) {
   .container-store {
-    padding-right: 16px;
+    padding-right: 0;
   }
 }
