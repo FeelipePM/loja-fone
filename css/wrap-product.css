@@ -5,8 +5,8 @@
   position: relative;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1292px) {
   .wrap-product {
-    width: 320px;
+    width: 100%;
   }
 }

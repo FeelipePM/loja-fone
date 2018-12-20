@@ -7,7 +7,10 @@
 
 @media (max-width: 1292px) {
   .wrap-button{
-    left: 0;
-    margin-left: 3px;
+    width: 100%;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+    transform: none;
   }
 }
