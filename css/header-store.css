@@ -72,11 +72,12 @@
   .header-store {
     padding-right: 60px; 
   }
+}
 
 @media (max-width: 1292px) {
 
   .header-store {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .header-store > .title {

@@ -32,9 +32,3 @@
     margin-left: auto;
   }
 }
-
-@media (max-width: 390px) {
-  .container-store {
-    padding-right: 0;
-  }
-}
