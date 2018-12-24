@@ -21,8 +21,16 @@
   cursor: pointer;
 }
 
-.description-product > .item.-active {
-  background-color: #fff;
+.description-product .item .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+  display: block;
 }
 
 .description-product > .item.-star {
