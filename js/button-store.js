@@ -1,3 +1,7 @@
 const $button = document.querySelector(".-second");
 
-console.log($button);
+$button.addEventListener("click", handleClick);
+
+function handleClick() {
+  console.log("Fui Clicado!");
+}
