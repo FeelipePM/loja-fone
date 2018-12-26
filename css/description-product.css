@@ -15,13 +15,14 @@
 
 .description-product > .item.-heart {
   position: absolute;
+  display: inline-block;
   transform: translateX(-100%);
   top: 8px;
   left: -47px;
   cursor: pointer;
 }
 
-.description-product .item .icon.-active {
+.description-product .icon.-active {
   display: none;
 }
 
@@ -30,6 +31,18 @@
 }
 
 .description-product > .item.-active .icon.-active {
+  display: block;
+}
+
+.description-product .star {
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+  display: none;
+}
+
+.description-product .star.-active > .-active {
   display: block;
 }
 
