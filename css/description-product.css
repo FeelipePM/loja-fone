@@ -104,6 +104,11 @@
     text-align: center;
   }
 
+  .description-product > .item.-heart {
+    left: 27%;
+    cursor: pointer;
+  }
+
   .description-product > .item.-star {
     float: left;
     margin-right: 10px;
@@ -118,12 +123,20 @@
   .description-product .text.-more {
     margin-bottom: 40px;
   }
+  .description-product > .item.-heart {
+  left: 18%;
+  cursor: pointer;
+  }
 }
 
   @media (max-width:720px) {
     .description-product {
       width: 90%;
       min-width: auto;
+    }
+    .description-product > .item.-heart {
+    left: 10%;
+    cursor: pointer;
     }
 
   }
@@ -133,5 +146,16 @@
       display: block;
       font-size: 30px;
       text-align: center;
+    }
+    .description-product > .item.-heart {
+      left: 12%;
+    cursor: pointer;
+    }
+  }
+
+  @media (max-width: 385px) {
+    .description-product > .item.-heart {
+      top: 35px;
+      left: 45px;
     }
   }
