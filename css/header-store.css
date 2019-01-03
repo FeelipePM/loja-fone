@@ -33,7 +33,6 @@
 }
 
 .header-store [type="search"]::placeholder {
-  opacity: 1;
   color: #fff;
 }
 
@@ -99,7 +98,22 @@
     padding-right: 30px; 
   }
   .header-store [type="search"] {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-88%);
+    background-color: #fff;
+    color: #000;
+
+    transition: transform 200ms linear;
+  }
+  .header-store [type="search"].-active {
+    transform: translateX(0);
+
+    transition: transform 400ms cubic-bezier(0, 0, 0.96, 1.26);
+  }
+  .header-store [type="search"]::placeholder {
+    color: #000;
   }
 }
 

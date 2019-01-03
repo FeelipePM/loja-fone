@@ -15,11 +15,12 @@
 
 .description-product > .item.-heart {
   position: absolute;
-  display: inline-block;
   transform: translateX(-100%);
   top: 8px;
   left: -47px;
   cursor: pointer;
+  width: 33px;
+  height: 29px;
 }
 
 .description-product .icon.-active {
@@ -99,14 +100,14 @@
     margin: 0 auto 60px;
   }
 
-  .description-product .title {
+  .description-product > .title {
     font-size: 35px;
     text-align: center;
   }
 
   .description-product > .item.-heart {
-    left: 27%;
-    cursor: pointer;
+    left: auto;
+    transform: none;
   }
 
   .description-product > .item.-star {
@@ -123,10 +124,6 @@
   .description-product .text.-more {
     margin-bottom: 40px;
   }
-  .description-product > .item.-heart {
-  left: 18%;
-  cursor: pointer;
-  }
 }
 
   @media (max-width:720px) {
@@ -134,28 +131,10 @@
       width: 90%;
       min-width: auto;
     }
-    .description-product > .item.-heart {
-    left: 10%;
-    cursor: pointer;
-    }
-
   }
 
-  @media (max-width: 420px) {
-    .description-product > .title {
-      display: block;
-      font-size: 30px;
-      text-align: center;
-    }
+  @media (max-width: 475px) {
     .description-product > .item.-heart {
-      left: 12%;
-    cursor: pointer;
-    }
-  }
-
-  @media (max-width: 385px) {
-    .description-product > .item.-heart {
-      top: 35px;
-      left: 45px;
+      position: static;
     }
   }

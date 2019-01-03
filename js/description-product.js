@@ -7,11 +7,11 @@ function handleClick() {
   this.classList.toggle("-active");
 }
 
-$stars.forEach(function($star, itemSelected) {
+$stars.forEach(($star, itemSelected) => {
   $star.addEventListener("click", starSelected);
 
   function starSelected() {
-    $stars.forEach(function(star, index) {
+    $stars.forEach((star, index) => {
       if (itemSelected >= index) {
         star.classList.add("-active");
       } else {
