@@ -36,6 +36,14 @@
   color: #fff;
 }
 
+.header-store .iconSearch {
+  display: none;
+}
+
+.header-store .iconClose {
+  display: none;
+}
+
 .header-store .action {
   display: inline-block;
   position: relative;
@@ -104,10 +112,6 @@
     transform: translateX(-88%);
     background-color: #fff;
     color: #000;
-    background-image: url("../img/Search.png");
-    background-repeat:no-repeat;
-    background-size: 40px;
-    background-position: right; 
 
     transition: transform 200ms linear;
   }
@@ -118,6 +122,39 @@
   }
   .header-store [type="search"]::placeholder {
     color: #000;
+  }
+
+  .header-store .iconSearch {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .header-store .iconSearch.-active {
+    display: none;
+  }
+
+  .header-store .iconClose{
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -10%;
+    left: 33%;
+  }
+
+  .header-store .iconClose.-active {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 33%;
+
+    transition: top 1s ease-in-out;
   }
 }
 
