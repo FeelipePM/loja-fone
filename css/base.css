@@ -1,8 +1,10 @@
 html, body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  position: relative;
   background-color: #252a34;
   background-image: linear-gradient(to bottom, #ff2e63, #252a34);
   background-attachment: fixed;
