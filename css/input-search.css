@@ -23,10 +23,6 @@
   display: none;
 }
 
-.input-menu {
-  display: none;
-}
-
 @media (max-width: 966px) {
   .input-search {
     position: absolute;
@@ -71,21 +67,6 @@
 
 @media(max-width: 400px) {
   .input-search > .content {
-    width: 75vw;
-  }
-} 
-
-@media(max-width: 348px) {
-  .input-menu {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 41px;
-    background-color: #fff;
-    box-sizing: border-box;
-    padding: 8px;
-    vertical-align: middle;
+    width: 70vw;
   }
 } 
