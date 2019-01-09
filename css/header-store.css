@@ -33,6 +33,10 @@
   margin-right: 0; 
 }
 
+.header-store .list {
+  display: inline-block;
+}
+
 .header-store .action {
   position: relative;
   color: inherit;
