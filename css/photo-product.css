@@ -5,11 +5,25 @@
   margin-right: 157px;
   background-color: #fff;
   vertical-align: middle;
+  padding-left: 100px;
+  position: relative;
+}
+
+.photo-product::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: translateX(-100%);
 }
 
 @media (max-width: 1325px) {
   .photo-product{
     margin-right: 140px;
+    padding-left: 0;
   }
 }
 
