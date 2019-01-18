@@ -10,6 +10,17 @@ body {
 
 @media (max-width: 350px) {
   body {
+    position: relative;
     overflow-x: hidden;
   } 
+
+  html {
+    overflow-x: hidden;
+  }
+
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
 }
